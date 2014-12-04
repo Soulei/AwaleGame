@@ -39,13 +39,13 @@ void init_matrice(int matrice[L][C]){
 void affiche_matrice(int matrice[L][C]) {
 	int i, j;
 	for(i = 0; i<L; i++) {
-		printf("------------------------------------------------------\n");
+		printf("---------------------------------------------------\n");
 		for(j=0; j<C; j++) {
 			printf(" %i\t||", matrice[i][j]);
 		}
 		printf("\n");
 	}
-		printf("-------------------------------------------------------");
+		printf("----------------------------------------------------");
 
 }
 
@@ -361,9 +361,9 @@ int main(){
 				
 				}
 			
-				printf("Voulez vous sauvegarder la partie y pour Oui et n pour Non\n");
+				printf("Voulez vous sauvegarder la partie Y pour Oui et N pour Non\n");
 				scanf("%*c%c", &reponse);                                                                                   
-				if(reponse == 'y') {
+				if(reponse == 'Y') {
 						sauvegarder(fic_save);
 				}
 				fclose(fic_save);
