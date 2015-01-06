@@ -18,3 +18,5 @@ doglama
 23
 Ordinateur
 27
+poda
+23
